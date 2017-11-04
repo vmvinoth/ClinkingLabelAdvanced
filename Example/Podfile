@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ClinkingLabelAdvanced_Example' do
+  pod 'ClinkingLabelAdvanced', :path => '../'
+
+  target 'ClinkingLabelAdvanced_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
