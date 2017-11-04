@@ -1,0 +1,6 @@
+framework module ClinkingLabelAdvanced {
+  umbrella header "ClinkingLabelAdvanced-umbrella.h"
+
+  export *
+  module * { export * }
+}

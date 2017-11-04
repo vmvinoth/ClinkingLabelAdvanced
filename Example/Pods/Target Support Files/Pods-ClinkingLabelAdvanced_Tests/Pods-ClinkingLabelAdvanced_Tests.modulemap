@@ -1,0 +1,6 @@
+framework module Pods_ClinkingLabelAdvanced_Tests {
+  umbrella header "Pods-ClinkingLabelAdvanced_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

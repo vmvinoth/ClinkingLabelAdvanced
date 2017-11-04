@@ -1,0 +1,22 @@
+{
+  "name": "ClinkingLabelAdvanced",
+  "version": "0.1.0",
+  "summary": "A short description of ClinkingLabelAdvanced.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vmvinoth@ideas2it.com/ClinkingLabelAdvanced",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vmvinoth@ideas2it.com": "vmvinoth@ideas2it.com"
+  },
+  "source": {
+    "git": "https://github.com/vmvinoth@ideas2it.com/ClinkingLabelAdvanced.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ClinkingLabelAdvanced/Classes/**/*"
+}
