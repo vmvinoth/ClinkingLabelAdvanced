@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		114EE7FD3E90EFE1B315267DBA78F1CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		11AD2F6E0856DEBC11EBBFA37CFD6CB9 /* Pods-ClinkingLabelAdvanced_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF08397878DADEEB12B67B9268D0BE /* Pods-ClinkingLabelAdvanced_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		180CC87B1FADBC0B009B674C /* ClinkingLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 180CC8791FADBC0B009B674C /* ClinkingLog.h */; };
-		180CC87C1FADBC0B009B674C /* ClinkingLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CC87A1FADBC0B009B674C /* ClinkingLog.m */; };
 		525BD0DD4BB6B7D6A108094ECD8F8814 /* ClinkingLabelAdvanced-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A7A53B70938D65C60CDF76A928551D /* ClinkingLabelAdvanced-dummy.m */; };
 		58041E1EC06BC8FF41D9CC0DDE208ECE /* Pods-ClinkingLabelAdvanced_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B2EEA41EBC67203B043EBC20BD64F /* Pods-ClinkingLabelAdvanced_Tests-dummy.m */; };
 		68A8DCFE0F604771E33AC91890379330 /* Pods-ClinkingLabelAdvanced_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7F6E8510AB8E69359EA106E1E875F /* Pods-ClinkingLabelAdvanced_Example-dummy.m */; };
@@ -34,8 +32,6 @@
 		05E1F0EFAD1558D235A235A5069F5065 /* Pods-ClinkingLabelAdvanced_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClinkingLabelAdvanced_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0813CD5D70DA14960A1A5EB61EC31413 /* Pods-ClinkingLabelAdvanced_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClinkingLabelAdvanced_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1509C8C8F3BECB25DA35F6C32A3C5821 /* Pods-ClinkingLabelAdvanced_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClinkingLabelAdvanced_Example-frameworks.sh"; sourceTree = "<group>"; };
-		180CC8791FADBC0B009B674C /* ClinkingLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinkingLog.h; sourceTree = "<group>"; };
-		180CC87A1FADBC0B009B674C /* ClinkingLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinkingLog.m; sourceTree = "<group>"; };
 		241EC42409E9A033599EEF26DF1AB04F /* ClinkingLabelAdvanced-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClinkingLabelAdvanced-prefix.pch"; sourceTree = "<group>"; };
 		3C8BAE652CC8038DF704ED9784762813 /* ClinkingLabelAdvanced.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ClinkingLabelAdvanced.modulemap; sourceTree = "<group>"; };
 		3E0D7062C20E4C198DECAAD2CC22BD02 /* ClinkingLabelAdvanced-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClinkingLabelAdvanced-umbrella.h"; sourceTree = "<group>"; };
@@ -106,8 +102,6 @@
 		0B90C5AB08105387F9CB43D08D082292 /* ClinkingLabelAdvanced */ = {
 			isa = PBXGroup;
 			children = (
-				180CC8791FADBC0B009B674C /* ClinkingLog.h */,
-				180CC87A1FADBC0B009B674C /* ClinkingLog.m */,
 				96E58A1A3A4CA96F78DEA1A8C90E2B6B /* Support Files */,
 			);
 			name = ClinkingLabelAdvanced;
@@ -216,7 +210,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180CC87B1FADBC0B009B674C /* ClinkingLog.h in Headers */,
 				85BD8A058916C2DCE0361CF75542770A /* ClinkingLabelAdvanced-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				525BD0DD4BB6B7D6A108094ECD8F8814 /* ClinkingLabelAdvanced-dummy.m in Sources */,
-				180CC87C1FADBC0B009B674C /* ClinkingLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
