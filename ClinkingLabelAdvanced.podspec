@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/vmvinoth@ideas2it.com/ClinkingLabelAdvanced'
+  s.homepage         = 'https://github.com/vmvinoth/ClinkingLabelAdvanced.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vmvinoth@ideas2it.com' => 'vmvinoth@ideas2it.com' }
-  s.source           = { :git => 'https://github.com/vmvinoth@ideas2it.com/ClinkingLabelAdvanced.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/vmvinoth/ClinkingLabelAdvanced/blob/master/MySDK.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.ios.vendored_frameworks = 'MySDK.framework'
   s.source_files = 'ClinkingLabelAdvanced/Classes/**/*'
   
   # s.resource_bundles = {
